@@ -40,7 +40,7 @@ export function Home() {
     if (currentHour < 12) {
       setGreeting('Good morning')
     } else if (currentHour >= 12 && currentHour < 18) {
-      setGreeting('Good afternoom')
+      setGreeting('Good afternoon')
     } else {
       setGreeting('Good night')
     }
